@@ -17,12 +17,16 @@ body {
     margin: 10px;
     display: flex;
     flex-direction: column;
+    flex: 1;
   }
   
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
+  }
 
+  .emoji p {
+    flex: 1 auto;
   }
   
   .emoji a {
@@ -31,15 +35,13 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    margin-top: auto;
-
   }
   
   .icon {
     font-size: 4rem;
     order:-1;
     align-self: center;
-
+    flex: 1;
 
   }
 
