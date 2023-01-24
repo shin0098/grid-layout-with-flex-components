@@ -17,6 +17,7 @@ body {
     margin: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex: 1;
   }
   
@@ -41,7 +42,5 @@ body {
     font-size: 4rem;
     order:-1;
     align-self: center;
-    flex: 1;
-
   }
 
